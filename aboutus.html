@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="images/logo.webp" type="image/x-icon">
+    <title>About Us</title>
+</head>
+<body>
+    <header>
+        <h2>Zack's Ski Shack</h2>
+        <h3>About Us</h3>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="favskis.html">Our Favorite Skis</a></li>
+                <li><a href="skigear.html">Ski Gear</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img id="aboutusimg" src="images/aboutusimg.jpg" alt="Ski Shop Cabin">
+            <p id="aboutusparapgraph">
+                Welcome to our ski shop nestled in the picturesque town of Lake Placid, NY, where
+                 snow-covered peaks and pristine slopes beckon adventurers year-round. 
+                 Established with a passion for winter sports and a commitment to excellence, 
+                 our shop is a haven for skiers of all levels seeking top-quality gear and expert 
+                 guidance. 
+            </p>
+        </div>
+
+    </main>
+    <footer>
+            <p>&copy;<span id="copyrightyear"></span> Zack Gaylord Productions</p>
+    </footer>
+    
+</body>
+<script src="js/script.js"></script>
+<script>
+    const d = new Date();
+    document.getElementById('copyrightyear').innerHTML = d.getFullYear();
+</script>
+</html>

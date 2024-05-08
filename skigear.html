@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="images/logo.webp" type="image/x-icon">
+    <title>Ski Gear</title>
+</head>
+<body>
+    <header>
+        <h2>Zack's Ski Shack</h2>
+        <h3>Assorted Ski Gear</h3>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="favskis.html">Our Favorite Skis</a></li>
+                <li><a href="skigear.html">Ski Gear</a></li>
+            </ul>
+        </nav>
+        <div class="column1">
+            <h4 class="gearcategory">Helmets</h4>
+            <ul>
+                <li><h4>White Wildhorn Adult Helmet </h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/helmet1.jpg" alt="">
+                </a></li>
+                <li><h4>Army Green OUTDOOR MASTER Adult Helmet</h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/helmet2.jpg" alt="">
+                </a></li>
+                <li><h4>Black + White Porsche Adult Helmet</h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/skihelmet3avif.avif" alt="">
+                </a></li>
+            </ul>
+        </div>
+        <div class="column2">
+            <h4 class="gearcategory" id="coatcategory">Coats</h4>
+            <ul>
+                <li><h4>Light Blue OUTDOOR MASTER Women's Coat</h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/skicoat1.jpg" alt="">
+                </a></li>
+                <li><h4>Blue OUTDOOR MASTER Adult Coat</h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/skicoat2.jpg" alt="">
+                </a></li>
+                <li><h4>Salmon OUTDOOR MASTER Women's Coat</h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/skicoat3.jpg" alt="">
+                </a></li>
+            </ul>
+
+        </div>
+        <div class="column2">
+            <h4 class="gearcategory">Pants</h4>
+            <ul>
+                <li><h4>Khaki DOPE Adult Ski Pants</h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/skipants1.avif" alt="">
+                </a></li>
+                <li><h4>Blue OUTDOOR MASTER Adult Ski Plans </h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/skipants2.webp" alt="">
+                </a></li>
+                <li><h4>Grey Camo MONTEC Adult Ski Pants</h4>
+                    <a href="">
+                    <img class="skigearimg" src="images/skipants3.avif" alt="">
+                </a></li>
+            </ul>
+
+        </div>
+
+    </main>
+    <footer>
+            <p>&copy;<span id="copyrightyear"></span> Zack Gaylord Productions</p>
+    </footer>
+    
+</body>
+<script src="js/script.js"></script>
+<script>
+    const d = new Date();
+    document.getElementById('copyrightyear').innerHTML = d.getFullYear();
+</script>
+</html>
